@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav Bar */
+
+nav{
+   
+    /* position: sticky;
+    top: 0px; */
+}
+
+.navBar{
+    width: 100vw;
+    height: 70px;
+    
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.B-blog{
+    background: transparent;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    color: #404040;
+    border: none;
+    position: relative;
+    right: 180px;
+}
+
+.Quote{
+    border: none;
+    background-color: #184655;
+    color: white;
+    position: relative;
+    right: 40px;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#logo{
+    position: relative;
+    left: 10px;
+}
+
+#bar{
+    position: relative;
+    right: 80px;
+}
+
+#store{
+    position: relative;
+    left: 200px;
+}
+
+#cart{
+    position: relative;
+    left: 125px;
+}
+
+#acr{
+    position: relative;
+    left: 300px;
+}
+
+#poly{
+    position: relative;
+    left: 220px;
+}
+
+/* hero section */
+.hero{
+    /* border: 1px solid black; */
+    /* background-image: url(./Rectangle\ 26.jpg); */
+    width: 1350px;
+    height: 500px;
+    /* background: linear-gradient(10deg, beige, lightblue); */
+    background-image: url(./Rectangle\ 31.jpg);
+    border-radius: 50px;
+    position: relative;
+    left: 10px;
+}
+
+.Starting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+}
+
+.heading{
+    color: #184655;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+}
+
+.search{
+    position: relative;
+    top: 30px;
+
+}
+
+#input{
+    width: 305px;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    position: relative;
+    top: 150px;
+}
+
+#butSearch{
+    background-color: #184655;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 0px 10px 10px 0px; 
+    position: relative;
+    top: 150px;
+}
+
+#butSearch:hover{
+    color: yellowgreen;
+}
+
+#base{
+    position: relative;
+    top: 200px;
+    color: gray;
+}
+
+#layer{
+    width: 475px;
+    height: 304px;
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+}
+/* blog */
+.robo-blog{
+    background-image: url(./blog.png);
+    /* border: 1px solid black; */
+    width: 1330px;
+    height: 412px;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#hand{
+    height: 350px;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    border-radius: 15px;
+}
+
+.col-2{
+    position: relative;
+    left: 150px;
+    top: 40px;
+    font-size: 20px;
+    color: #404040;
+}
+
+#date{
+    position: relative;
+    left: 450px;
+    bottom: 15px;
+}
+
+#name{
+    position: relative;
+    top: 15px;
+}
+
+#des{
+    position: relative;
+    top: 10px;
+    width: 650px;
+}
+
+/* more blog */
+.blog-element{
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 450px;
+    position: relative;
+    left: 20px;
+    top: 50px;
+    box-shadow: 2px 5px 10px black;
+    overflow: hidden;
+}
+
+.more-blogs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#M-blog-img{
+    width: 400px;
+    height: 250px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#head-1{
+    color:black;
+    position: relative;
+    bottom: 10px;
+}
+
+.blog-content{
+    padding: 10px;
+    color: #404040;
+}
+
+#date-1{
+    position: relative;
+    left: 300px;
+    bottom: 20px;
+}
+
+#seefull{
+    text-decoration: none;
+    color: #404040;
+    font-size: 18px;
+    position: relative;
+    left: 300px;
+}
+
+
+
+/* Footer */
+
+.footer{
+    /* border: 1px solid black; */
+    /* background-image: url(./Rectangle\ 26.jpg); */
+    width: 1350px;
+    height: 500px;
+    /* background: linear-gradient(10deg, beige, lightblue); */
+    background-image: url(./Rectangle\ 31.jpg);
+    border-radius: 50px;
+    position: relative;
+    left: 10px;
+    top: 100px;
+}
+
+.first{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+    left: 70px;
+    bottom: 100px;
+}
+
+.footing{
+    color: #0e2c36;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 250px;
+}
+
+.app{
+    color: black;
+}
+
+.B{
+    position: relative;
+    top: 30px;
+
+}
+
+
+#button-2{
+    background-color: #184655;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 10px; 
+    position: relative;
+    top: 300px;
+    left: 80px;
+    background: linear-gradient(to right, violet, blue);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#button-2:hover{
+    color:black;
+}
+
+#base{
+    position: relative;
+    top: 200px;
+    color: gray;
+}
+
+#layer{
+    width: 475px;
+    height: 304px;
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+}
